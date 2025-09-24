@@ -26,32 +26,44 @@ To run this scraper on your local machine, please follow these steps.
 ```bash
 git clone [https://github.com/akadirsanli/financial-news-aggregator.git](https://github.com/akadirsanli/financial-news-aggregator.git)
 cd financial-news-aggregator
-2. Create and activate a virtual environment:
+````
 
-On macOS/Linux:
+**2. Create and activate a virtual environment:**
 
-Bash
+  * On macOS/Linux:
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+  * On Windows:
+    ```bash
+    python -m venv venv
+    venv\Scripts\activate
+    ```
 
-python3 -m venv venv
-source venv/bin/activate
-On Windows:
+**3. Install the required dependencies:**
 
-Bash
-
-python -m venv venv
-venv\Scripts\activate
-3. Install the required dependencies:
-
-Bash
-
+```bash
 pip install -r requirements.txt
-Usage
+```
+
+-----
+
+## Usage
+
 Once the setup is complete, you can run the scraper with a single command:
 
-Bash
-
+```bash
 python scraper.py
+```
+
 Upon successful execution, a new CSV file with the day's headlines will be created in the project's root directory.
 
-Disclaimer
+-----
+
+## Disclaimer
+
 This script is intended for educational purposes only. Web scraping can be demanding on server resources. Please use this script responsibly and be mindful of the terms of service of the website you are scraping. The structure of websites changes frequently, which may require updates to the parsing logic in this script.
+
+```
+```
