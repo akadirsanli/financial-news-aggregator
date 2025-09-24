@@ -63,7 +63,4 @@ Upon successful execution, a new CSV file with the day's headlines will be creat
 
 ## Disclaimer
 
-This script is intended for educational purposes only. Web scraping can be demanding on server resources. Please use this script responsibly and be mindful of the terms of service of the website you are scraping. The structure of websites changes frequently, which may require updates to the parsing logic in this script.
-
-```
-```
+/This script is intended for educational purposes only. Web scraping can be demanding on server resources. Please use this script responsibly and be mindful of the terms of service of the website you are scraping. The structure of websites changes frequently, which may require updates to the parsing logic in this script./
